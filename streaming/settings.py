@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     "crispy_bootstrap4",
     'video',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -90,6 +91,10 @@ EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 #signin redirect
 LOGIN_REDIRECT_URL='index'
+
+
+#addition signup forms
+ACCOUNT_SIGNUP_FORM_CLASS='profiles.forms.ProfileForm'
 
 WSGI_APPLICATION = 'streaming.wsgi.application'
 
