@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Video
+from .models import Video, Category, Comment
 
 admin.site.register(Video)
+admin.site.register(Category)
+admin.site.register(Comment)
 # Register your models here.
