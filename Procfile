@@ -1,2 +1,2 @@
+web: gunicorn streaming.wsgi
 
-web: python manage.py runserver
