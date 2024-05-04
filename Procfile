@@ -1,3 +1,2 @@
 
-
-web: gunicorn streaming:application  --log-file
+web: python manage.py runserver
