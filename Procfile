@@ -1,3 +1,3 @@
 
 
-web: gunicorn streaming:application 
+web: gunicorn streaming:application  --log-file
